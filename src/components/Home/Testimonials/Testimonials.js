@@ -14,7 +14,7 @@ const Testimonials = () => {
         </li>
     })
     return (
-        <section id="testimonials">
+        <section id="testimonials" id="Testimonial">
             <div className="container-fluid text-container">
                 <div className="row"  style={{maxWidth: "1300px",margin: "auto"}}>
                     <div className="col-md-2 header-col">

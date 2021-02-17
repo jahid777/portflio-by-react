@@ -1,7 +1,8 @@
 #testimonials{
-    background: #262335 url(../../../images/testimonials-bg.jpg) no-repeat center ;
+    /* background: #262335 url(../../../images/testimonials-bg.jpg) no-repeat center ;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: black;
     position: relative;
     min-height: 200px;
     width: 100%;

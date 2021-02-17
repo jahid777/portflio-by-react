@@ -1,5 +1,5 @@
 .about {
-    background: #262335;
+    background: blue;
     padding-top: 96px;
     padding-bottom: 66px;
  }
@@ -19,7 +19,7 @@
 
  .about p {
     line-height: 30px;
-    color: #7A7A7A;
+    color: black;
  }
 
  .download{
@@ -37,7 +37,7 @@
 
  .download-button:hover {
     background-color: #fff;
-    color: #2B2B2B !important;
+    color: blue!important;
  }
 
  .download-button:hover a{

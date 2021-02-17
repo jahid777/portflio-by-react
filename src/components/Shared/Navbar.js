@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {Link} from "react-router-dom";
 import './Navbar.css';
-import resumeSrc from '../../images/resume of jahid.pdf';
+import resumeSrc from '../../images/resume of jahid new number.pdf';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -37,14 +37,12 @@ const Navbar = () => {
                     <li className="nav-item">
                         <Link style={{textDecoration:"none"}} to="/about"><a className="nav-link link mr-2 ml-2" href="about">About</a></Link>
                     </li>
+                   
                     <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/"><a className="nav-link link mr-2 ml-2" href="works">Works</a></Link>
+                        <Link style={{textDecoration:"none"}} to="/blog"><a className="nav-link link mr-2 ml-2" href="blog">Blog</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/"><a className="nav-link link mr-2 ml-2" href="works">Blog</a></Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/"><a className="nav-link link mr-2 ml-2" href="works">Contact</a></Link>
+                        <Link style={{textDecoration:"none"}} to="/contact"><a className="nav-link link mr-2 ml-2" href="contact">Contact</a></Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link ml-3" href={resumeSrc} download> <span className="nav-button "> Resume</span></a>

@@ -1,12 +1,12 @@
 import React from 'react';
 import './About.css';
 import profilePic from '../../../images/green.png'
-import resumeSrc from '../../../images/resume of jahid.pdf';
+import resumeSrc from '../../../images/resume of jahid new number.pdf';
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 const About = () => {
     return (
-        <section className="about" >
+        <section className="about" id="About">
             <div className="container-fluid">
                 <div className="row px-3 " style={{maxWidth: "1300px",margin: "auto"}}>
                     <div className="col col-md-3 d-flex justify-content-center">
@@ -24,8 +24,8 @@ const About = () => {
                                 <h2>Contact Details</h2>
                                 <p className="address">
                                     <span>  Md. Jahidul islam  </span><br />
-                                    <span> 123 Fake Street<br />
-                                    Dhaka Bangladesh, ABC 123
+                                    <span> Dhakhingaon, Nandipara<br />
+                                    Dhaka Bangladesh.
                                     </span><br />
                                     <span>+880 1938901990</span><br />
                                     <span> za0162hid@gmail.com </span>

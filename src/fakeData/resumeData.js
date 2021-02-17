@@ -12,7 +12,7 @@ const resumeData =[
             "school": " Programming Hero ",
             "degree": " Complete Web Development Course With Jhankar Mahbub",
             "graduated": "JUN 2020 - DEC 2020",
-            "description": " Here are the skills that I have learned from this course: HTML, CSS, Bootstrap4, React-Bootstrap, JavaScript, ES6, Chrome DEV Tools, ReactJS, Material-ui, NodeJS, ExpressJS, MongoDB, OOP, Data Structure, Algorithm"
+            "description": " Here are the skills that I have learned from this course: HTML, CSS, Bootstrap4, React-Bootstrap, JavaScript, ES6, Chrome DEV Tools, ReactJS, Material-ui, NodeJS, ExpressJS, MongoDB"
           },
           // {
           //   "school": " Udemy",
@@ -23,10 +23,10 @@ const resumeData =[
         ],
         // "work": [
         //   {
-        //     "company": "AnswarIT",
+        //     "company": "rightlookit",
         //     "title": "Full-Stack Web Developer",
         //     "years": "FEB 2020 - present",
-        //     "description": " I was responsible for developing websites with Django and WordPress. Developed an Oil blog web applicaion with Django. Features: create a post, Detail page, most recent post, category list, recommended similar post, comment functionality, Featured post, etc. Website Live Link: https://oil4us.com "
+        //     "description": " I was responsible for developing websites with WordPress. It is for a graphic design company. Website Live Link: https://rightlookit.com/ "
         //   },
         //   {
         //     "company": "SoftDevs",
@@ -89,17 +89,12 @@ const resumeData =[
               "url": "https://creative-agency-mern-stack.web.app/"
             },
             {
-              "title": "Amazone Clone with React.js",
-              "category": "Amazone Clone built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS)",
-              "image": "amazon.png",
-              "url": "https://nifty-visvesvaraya-e8d8ba.netlify.app/"
+              "title": "Volunteer Network",
+              "category": "Volunteer Network built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Firebase Authentication.)",
+              "image": "volunteer.png",
+              "url": "https://myvolunteer.netlify.app"
             },
-            {
-              "title": "Facebook Clone with React.js",
-              "category": "Facebook Clone built with ReactJS, ES6, HTML, CSS, Material-ui",
-              "image": "Facebook.png",
-              "url": "https://gracious-wiles-cb6d6f.netlify.app/"
-            },
+            
             {
               "title": "Doctors Portal -A Clinic Management System ",
               "category": "Doctors Portal built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Firebase Authentication, React-calendar, Popup Modal.",
@@ -107,11 +102,12 @@ const resumeData =[
               "url": "https://doctors-portal-mern-stack.web.app/"
             },
             {
-              "title": "Volunteer Network -A Event Manager",
-              "category": "MERN STACT PROJECT",
-              "image": "volunteer.png",
-              "url": "https://volunteer-network-59df7.web.app/"
+              "title": "ema-john",
+              "category": "ema-john built with MERN Stack (  ReactJS, NodeJS), Bootstrap, Firebase Authentication, React-Router.",
+              "image": "emaJohn.PNG",
+              "url": "https://ema-john-with-authentication.netlify.app/"
             }
+            
           ],
           "testimonials": [
             {

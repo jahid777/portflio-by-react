@@ -25,7 +25,7 @@ const Portfolio = () => {
             </div>
         })
     return (
-        <section id="portfolio" className="container-fluid">
+        <section id="portfolio" className="container-fluid" id="Portfolio">
             <div className="row projects" style={{maxWidth: "1300px",margin: "auto"}}>
                 <div className="col-md-12 collapseed">
                 <h1 className="" > <span> projects </span></h1>

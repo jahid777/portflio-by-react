@@ -9,7 +9,7 @@ import Typical from 'react-typical'
 const Header = () => {
     return (
         <header> 
-            <div  className="header container">
+            <div  className="header container" id="Header">
                 <div  className="row banner " >
                     <div className="banner-text"  >
                         <h1 className="headline text-center">
@@ -38,7 +38,6 @@ const Header = () => {
                             <a href="https://github.com/jahid777?tab=repositories"> <GitHubIcon/> </a>
                             <a href="https://www.linkedin.com/in/md-jahidul-islam-9578941a6"> <LinkedInIcon/> </a>
                             <a href="facebook.com/zahid.hassain.51"> <FacebookIcon/>  </a>
-                            {/* <a href="https://www.instagram.com/mainul_islam_faruqi/"> <InstagramIcon/> </a> */}
                         </div>
                     </div>
                    

@@ -7,7 +7,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id="Footer">
             <div className="row">
                 <div className="col-md-12">
                     <div className="social">
