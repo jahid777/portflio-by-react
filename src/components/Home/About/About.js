@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import profilePic from '../../../images/green.png'
-import resumeSrc from '../../../images/resume of jahid new number.pdf';
+import resumeSrc from '../../../images/resume with website.pdf';
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 const About = () => {
