@@ -11,7 +11,7 @@ const Portfolio = () => {
             return <div key={projects.title} className="col-lg-3 col-md-6 col-sm-6 columns portfolio-item">
                 <div className="item-wrap">
                 <a href={projects.url} title={projects.title}>
-                    <img src={projectImage} alt={projects.title}  />
+                    <img style={{height:'180px'}} src={projectImage} alt={projects.title}  />
                     <div className="overlay">
                         <div className="portfolio-item-meta">
                             <h5> {projects.title} </h5>
