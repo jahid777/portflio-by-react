@@ -20,13 +20,7 @@ const Resume = () => {
       </div>
     );
   });
-  // const work = resume.work.map(work=> {
-  //     return <div key={work.company}>
-  //         <h3> {work.company} </h3>
-  //         <p className="info"> {work.title}<span>&bull;</span><em className="date"> {work.years} </em> </p>
-  //         <p> {work.description} </p>
-  //     </div>
-  // })
+  
 
   const skills = resume.skills.map((skills) => {
     var className = "bar-expand " + skills.name.toLowerCase();

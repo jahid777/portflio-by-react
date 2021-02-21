@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {Link} from "react-router-dom";
 import './Navbar.css';
-import resumeSrc from '../../images/resume with website.pdf';
+import resumeSrc from '../../images/resume of jahid updated.pdf';
 
 
 const Navbar = () => {
