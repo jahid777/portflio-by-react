@@ -32,12 +32,12 @@ const Header = () => {
                              </span>
                         </h1>
                         <div className="status"><ul> <li> Web Developer</li> <li> Crazy React  Lover </li></ul></div>
-                        <h3><span> React  && Web Developer Programming Hero.</span> A self-taught software developer with deep interest in javascript and wordpress.  </h3>
+                        <h3><span> React Web Developer.</span> A self-taught software developer with deep interest in javascript && wordpress.  </h3>
                         
                         <div className="social">
                             <a href="https://github.com/jahid777?tab=repositories"> <GitHubIcon/> </a>
                             <a href="https://www.linkedin.com/in/md-jahidul-islam-9578941a6"> <LinkedInIcon/> </a>
-                            <a href="facebook.com/zahid.hassain.51"> <FacebookIcon/>  </a>
+                            <a href="facebook.com/zahid.hassain.51" target="_blank"> <FacebookIcon/>  </a>
                         </div>
                     </div>
                    

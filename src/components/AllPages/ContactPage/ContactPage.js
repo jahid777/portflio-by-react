@@ -1,8 +1,10 @@
 import React from 'react';
-import './Contact.css';
+// import './Contact.css';
 import emailjs from 'emailjs-com';
+import Navbar from '../../Shared/Navbar';
+import Footer from '../../Home/Footer/Footer';
 
-const Contact = () => {
+const ContactPage = () => {
 
     function sendEmail(e) {
         e.preventDefault();
@@ -19,7 +21,9 @@ const Contact = () => {
           e.target.reset()
       }
     return (
-        <section id="contact" id="Contact">
+       <>
+       <Navbar></Navbar>
+        <section  id="ContactPage" style={{backgroundColor:'gray'}}>
             <div className=" container-fluid">
             <h2 className="text-white text-center pb-5" ><span style={{borderBottom:"2px solid #00ffd5",paddingBottom:"6px",fontSize:"1.2rem",letterSpacing:"2px", fontWeight:"bold",textTransform:"uppercase"}} >Get In Touch</span></h2>
                 <div className="row pl-4"  style={{maxWidth: "1300px",margin: "auto"}}>
@@ -98,7 +102,9 @@ const Contact = () => {
                 </div>
             </div>
         </section>
+        <Footer></Footer>
+       </>
     );
 };
 
-export default Contact;
+export default ContactPage;

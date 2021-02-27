@@ -27,15 +27,15 @@ const resumeData =[
             },
             {
               "name": "NodeJS",
-              "level": "65%"
+              "level": "55%"
             },
             {
               "name": "ExpressJS",
-              "level": "65%"
+              "level": "55%"
             },
             {
               "name": "MongoDB",
-              "level": "70%"
+              "level": "50%"
             },
             
             {
@@ -52,7 +52,7 @@ const resumeData =[
             },
             {
               "name": "WORDPRESS",
-              "level": "60%"
+              "level": "50%"
             }
           ],
 
@@ -77,23 +77,35 @@ const resumeData =[
               "url": "https://cocky-mclean-596746.netlify.app/"
             },
             {
-              "title": "ema-john",
-              "category": "ema-john built with MERN Stack (  ReactJS, NodeJS), Bootstrap, Firebase Authentication, React-Router.",
+              "title": "Ema-john",
+              "category": "ema-john built with(ReactJS), Bootstrap, Firebase Authentication, React-Router.",
               "image": "emaJohn.PNG",
               "url": "https://ema-john-with-authentication.netlify.app/"
-            }
-            
+            },  
+            {
+              "title": "E-commerce",
+              "category": "E-commerce built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap.)",
+              "image": "ecommerce.PNG",
+              "url": "https://brave-wright-2db859.netlify.app/"
+            },   
+            {
+              "title": "Travel-guru",
+              "category": "Travel-guru built with( ReactJS, Bootstrap,Firebase Authentication, React-Router.)",
+              "image": "travel.PNG",
+              "url": "https://wizardly-kare-fdde8d.netlify.app"
+            }       
           ],
-          "testimonials": [
-            {
-              "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-              "user": "Kareem Abdul Jabbar"
-            },
-            {
-              "text": "That Jahidul islam must be one of the most splendid engineers I've ever met! Unfortunately no one has recruited him yet. Hello you, you should enlist this person, he might be recently out of University and have zero hands on experience however I am certain that he will be probably the best designer in the blink of an eye!",
-              "user": "Steve Wozniak... impersonator"
-            }
-          ]
+
+          // "testimonials": [
+          //   {
+          //     "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+          //     "user": "Kareem Abdul Jabbar"
+          //   },
+          //   {
+          //     "text": "That Jahidul islam must be one of the most splendid engineers I've ever met! Unfortunately no one has recruited him yet. Hello you, you should enlist this person, he might be recently out of University and have zero hands on experience however I am certain that he will be probably the best designer in the blink of an eye!",
+          //     "user": "Steve Wozniak... impersonator"
+          //   }
+          // ]
 
     },
 ]

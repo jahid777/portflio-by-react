@@ -100,7 +100,7 @@
 .bars li em {
     font-size: 15px;
     font-weight: bold !important;
-    color: blue;
+    color: #211530;
     text-transform: uppercase;
     letter-spacing:2px;
     font-weight: normal;
@@ -114,7 +114,7 @@
     top: 0;
     margin: 0;
     padding-right: 24px;
-    background: blue;
+    background: #211530;
     display: inline-block;
     height: 42px;
     line-height: 42px;

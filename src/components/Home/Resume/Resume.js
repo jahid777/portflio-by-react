@@ -66,11 +66,11 @@ const Resume = () => {
           <div className="col-md-9 main-col" id="work">
             <div className="row" style={{marginLeft:'2px'}}>
               
-                company: rightlookit <br />
+                Company: rightlookit <br />
                 Title: Full-Stack Web Developer <br />
                 Years: FEB 2020 <br />
                 Description": I was responsible for developing websites with
-                WordPress. It is for a graphic design company. <br />
+                WordPress. It was a  graphic designer company. <br />
                 {/* Website Live Link: https://rightlookit.com/ */} 
             </div>
               <div> Live Link: <a style={{fontSize:'20px'}} target="_blank" href="https://rightlookit.com"> rightlookit</a> </div>

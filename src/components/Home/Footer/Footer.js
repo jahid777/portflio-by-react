@@ -22,8 +22,8 @@ const Footer = () => {
                     </p> */}
 
                     <p className="copyright">
-                          &copy; All credit goes to Jahidul Islam - Copyright 2020 Jahidul Islam   
-                          Developed by <a title="Styleshout" href="http://www..com/">Jahidul Islam</a>   
+                          &copy; <span style={{color:'gray!important'}}>All credit goes to Jahidul Islam - Copyright 2020 Jahidul Islam   
+                          Developed by</span> <a title="Styleshout" href="http://www..com/">Jahidul Islam</a>   
                     </p>
 
 

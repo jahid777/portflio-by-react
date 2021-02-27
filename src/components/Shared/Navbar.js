@@ -32,18 +32,19 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav ml-auto">
-                    <li className="nav-item active">
+                    <li className="nav-item">
                         <Link style={{textDecoration:"none"}} activeClassName="active" to="/"><a className="nav-link link mr-2 ml-2" href="home">Home <span className="sr-only">(current)</span></a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/about"><a className="nav-link link mr-2 ml-2" href="about">About</a></Link>
+                        <Link style={{textDecoration:"none"}} to="/aboutPage"><a className="nav-link link mr-2 ml-2" href="aboutPage">About</a></Link>
                     </li>
                    
                     <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/blog"><a className="nav-link link mr-2 ml-2" href="blog">Blog</a></Link>
+                        <Link style={{textDecoration:"none"}} to="/contactPage"><a className="nav-link link mr-2 ml-2" href="contactPage">Contact</a></Link>
                     </li>
+
                     <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/contact"><a className="nav-link link mr-2 ml-2" href="contact">Contact</a></Link>
+                        <Link style={{textDecoration:"none"}} to="/blog"><a className="nav-link link mr-2 ml-2" href="blog">Blog</a></Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link ml-3" href={resumeSrc} download> <span className="nav-button "> Resume</span></a>

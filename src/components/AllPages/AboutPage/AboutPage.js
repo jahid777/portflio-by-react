@@ -1,12 +1,17 @@
 import React from 'react';
-import './About.css';
+// import './About.css';
 import profilePic from '../../../images/green.png'
 import resumeSrc from '../../../images/resume of jahid updated.pdf';
 import GetAppIcon from '@material-ui/icons/GetApp';
+import Navbar from '../../Shared/Navbar';
+import Footer from '../../Home/Footer/Footer';
 
-const About = () => {
+
+const AboutPage = () => {
     return (
-        <section className="about" id="About">
+        <>
+          <Navbar></Navbar>
+        <section className="about" id="aboutPage">
             <div className="container-fluid">
                 <div className="row px-3 " style={{maxWidth: "1300px",margin: "auto"}}>
                     <div className="col col-md-3 d-flex justify-content-center">
@@ -42,7 +47,9 @@ const About = () => {
 
             </div>
         </section>
+         <Footer></Footer>
+        </>
     );
 };
 
-export default About;
+export default AboutPage;
