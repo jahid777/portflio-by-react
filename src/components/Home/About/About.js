@@ -16,7 +16,7 @@ const About = () => {
                         <h2> About Me </h2>
                         <p className="text-justify">I am a professional Web Developer & designer with 1 years of experience. I
                         have completed one long term course on 
-                        Jhankar Mahbub from Programming Hero.I know  HTML, CSS, Bootstrap4, React-Bootstrap, JavaScript, ES6,  ReactJS, Material-ui, NodeJS, ExpressJS, MongoDB and Wordpress(basic). As my profession and career object
+                        Jhankar Mahbub from Programming Hero. I know HTML, CSS, Bootstrap4, React-Bootstrap, JavaScript, ES6,  ReactJS, Material-ui, NodeJS, ExpressJS, MongoDB and Wordpress(basic). As my profession and career object
                         I will probably give 100% difficult work and exact Service.</p>
 
                         <div className="row">
