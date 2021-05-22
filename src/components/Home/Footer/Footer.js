@@ -36,7 +36,11 @@ const Footer = () => {
               All credit goes to Jahidul Islam - Copyright 2020 Jahidul Islam
               Developed by
             </span>{" "}
-            <a title="Styleshout" href="http://www..com/">
+            <a
+              title="Styleshout"
+              style={{ color: "white" }}
+              href="http://www..com/"
+            >
               Jahidul Islam
             </a>
           </p>

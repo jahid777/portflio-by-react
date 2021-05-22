@@ -1,17 +1,12 @@
-import React from 'react';
-import './App.css';
-
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-import Home from './components/Home/Home/Home';
-import About from './components/Home/About/About';
-import Contact from './components/Home/Contact/Contact';
-import Blog from './components/Blog/Blog';
-import AboutPage from './components/AllPages/AboutPage/AboutPage';
-import ContactPage from './components/AllPages/ContactPage/ContactPage';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/Home/Home/Home";
+import About from "./components/Home/About/About";
+import Contact from "./components/Home/Contact/Contact";
+import Blog from "./components/Blog/Blog";
+import AboutPage from "./components/AllPages/AboutPage/AboutPage";
+import ContactPage from "./components/AllPages/ContactPage/ContactPage";
 
 function App() {
   return (
@@ -19,7 +14,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/">
-            <Home/>
+            <Home />
           </Route>
 
           <Route path="/about">
@@ -35,11 +30,11 @@ function App() {
           </Route>
 
           <Route path="/aboutPage">
-             <AboutPage></AboutPage>
+            <AboutPage></AboutPage>
           </Route>
 
           <Route path="/contactPage">
-             <ContactPage></ContactPage>
+            <ContactPage></ContactPage>
           </Route>
         </Switch>
       </div>

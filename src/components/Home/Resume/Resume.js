@@ -20,7 +20,6 @@ const Resume = () => {
       </div>
     );
   });
-  
 
   const skills = resume.skills.map((skills) => {
     var className = "bar-expand " + skills.name.toLowerCase();
@@ -62,18 +61,38 @@ const Resume = () => {
               <span> work </span>
             </h1>
           </div>
-
           <div className="col-md-9 main-col" id="work">
-            <div className="row" style={{marginLeft:'2px'}}>
-              
-                Company: rightlookit <br />
-                Title: Full-Stack Web Developer <br />
-                Years: FEB 2020 <br />
-                Description": I was responsible for developing websites with
-                WordPress. It was a  graphic designer company. <br />
-                {/* Website Live Link: https://rightlookit.com/ */} 
+            <div className="row" style={{ marginLeft: "2px" }}>
+              Company: Answarit <br />
+              Title: Full-Stack Web Developer <br />
+              Years: FEB 2020 <br />
+              Description": I was responsible for developing websites with
+              React.js and Wordpress. <br />
+              {/* Website Live Link: https://rightlookit.com/ */}
             </div>
-              <div> Live Link: <a style={{fontSize:'20px'}} target="_blank" href="https://rightlookit.com"> rightlookit</a> </div>
+
+            <div>
+              {" "}
+              Live Link(react.js):{" "}
+              <a
+                style={{ fontSize: "20px" }}
+                target="_blank"
+                href="https://plabonexpress.com/"
+              >
+                {" "}
+                plabonexpress.com
+              </a>{" "}
+              <br />
+              Live Link(wordpress):{" "}
+              <a
+                style={{ fontSize: "20px" }}
+                target="_blank"
+                href="https://rightlookit.com"
+              >
+                {" "}
+                rightlookit.com
+              </a>{" "}
+            </div>
           </div>
         </div>
 
@@ -89,7 +108,7 @@ const Resume = () => {
           </div>
 
           <div className="col-md-9 main-col">
-            <p className="text-center pb-3 pt-3">{skillmessage}</p>
+            <p className=" pb-3 pt-3">{skillmessage}</p>
             <div className="bars">
               <ul className="skills"> {skills} </ul>
             </div>
